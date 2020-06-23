@@ -17,9 +17,7 @@ class Shoe
 
 end
 
-uggs.uniq
-Rainbow.uniq
-Nike.uniq
+
 
 # brand.new
 # brand = uggs
