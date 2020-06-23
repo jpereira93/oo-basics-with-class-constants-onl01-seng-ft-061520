@@ -21,7 +21,8 @@ def brand
 
 end
 end
-
+brand.new
+brand = uggs
 # brands.size = 3
 #   attr_accessor :color, :size, :material, :condition
 #   attr_reader :brand
