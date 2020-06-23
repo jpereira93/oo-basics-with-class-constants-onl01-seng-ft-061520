@@ -6,9 +6,10 @@ class Shoe
 
   BRANDS = []
   def initialize(brand)
-      @brand = brand
-    end
-    def cobble
+    @brand = brand
+  end
+
+  def cobble
         self.condition = "new"
         puts "Your shoe is as good as new!"
       end
@@ -16,12 +17,12 @@ class Shoe
 def brand
   @brand=brand
   BRANDS << brand
-end
 
 
 end
+end
 
-brands.size = 3
+# brands.size = 3
 #   attr_accessor :color, :size, :material, :condition
 #   attr_reader :brand
 #
